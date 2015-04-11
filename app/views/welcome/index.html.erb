@@ -1,0 +1,9 @@
+<h1>JS Optimizer</h1>
+
+<p> Paste your JavaScript code here </p>
+<%= form_tag( { :action => 'results' }, :multipart => true ) %>
+   <%= text_area "code", "body", "cols" => 100, "rows" => 8%> <br> <br>
+  <%= submit_tag( "Optimize!" ) %>
+
+
+
